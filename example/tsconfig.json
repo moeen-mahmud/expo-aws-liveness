@@ -1,0 +1,10 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "expo-aws-liveness": ["../src/index"],
+      "expo-aws-liveness/*": ["../src/*"]
+    }
+  }
+}
