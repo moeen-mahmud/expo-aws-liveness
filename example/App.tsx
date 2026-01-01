@@ -3,7 +3,7 @@ import ExpoAwsLiveness, { ExpoAwsLivenessView } from 'expo-aws-liveness';
 import { Button, SafeAreaView, ScrollView, Text, View } from 'react-native';
 
 export default function App() {
-  const onChangePayload = useEvent(ExpoAwsLiveness, 'onChange');
+  const onChangePayload = useEvent(ExpoAwsLiveness, 'onStatusChange');
 
   return (
     <SafeAreaView style={styles.container}>
